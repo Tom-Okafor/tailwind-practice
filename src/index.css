@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .article {
+    @apply w-[100px] h-[150px] bg-green-900 grow;
+  }
+}
