@@ -3,26 +3,32 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1 className="text-8xl px-4 text-purple-500 text-center py-8 font-serif">Unity Corporations.</h1>
-      <h2 className="text-3xl text-yellow-600 text-center py-4 font-serif">Staff Leads.</h2>
-      <section>
-        <div>
+      <h1 className="text-8xl px-4 text-purple-500 text-center py-8 font-serif">
+        Unity Corporations.
+      </h1>
+      <h2 className="text-3xl text-yellow-600 text-center py-4 font-serif">
+        Staff Leads.
+      </h2>
+      <section className="flex flex-initial justify-center gap-8 section-width mx-auto">
+        <div className="flex flex-col justify-start items-center w-[500px] border-2 border-purple-400 rounded-2xl py-6 px-5 shadow-xl gap-4">
           <img
             src="https://th.bing.com/th?id=OIP.u-Yt2tcCjepBr-6TB7-EegHaJQ&w=223&h=279&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
             alt=""
+            className="w-[150px] h-[150px] rounded-full object-cover border-[2px] border-purple-600"
           />
-          <h3>Aubery Hamford</h3>
-          <h4>Data Analyst</h4>
-          <p>
+          <h3 className="text-2xl text-yellow-600 font-bold">Aubery Hamford</h3>
+          <h4 className="text-lg text-yellow-500 font-serif font-bold">Data Analyst</h4>
+          <p className="text-center">
             Aubery Hamford is the chief data analyst of Unity Corporations. He
             is a genius at handling data and optimizing the most random sets for
             optimum performance.
           </p>
         </div>
-        <div>
+        <div className="flex flex-col justify-evenly align-items-center h-[500px] w-[500px]">
           <img
             src="https://th.bing.com/th?id=OIP.sZ4wMoVgQYmItcIiNLceuQHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
             alt=""
+            className="w-[150px] h-[150px] rounded-full"
           />
           <h3>Sarah Pinnock</h3>
           <h4>Research Manager</h4>
@@ -32,10 +38,11 @@ function App() {
             ensure accurate information and excellent results.
           </p>
         </div>
-        <div>
+        <div className="flex flex-col justify-evenly align-items-center h-[500px] w-[500px]">
           <img
             src="https://th.bing.com/th/id/OIP.28lI-o8NNikT4vWt3T-GVAHaLH?w=184&h=276&c=7&r=0&o=5&pid=1.7"
             alt=""
+            className="w-[150px] h-[150px] rounded-full"
           />
           <h3>Fatima Rosebudding</h3>
           <h4>Communications Manager</h4>
