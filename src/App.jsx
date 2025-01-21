@@ -3,8 +3,8 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1 className="text-5xl px-4 text-purple-500">Unity Corporations.</h1>
-      <h2>Staff Leads.</h2>
+      <h1 className="text-8xl px-4 text-purple-500 text-center py-8 font-serif">Unity Corporations.</h1>
+      <h2 className="text-3xl text-yellow-600 text-center py-4 font-serif">Staff Leads.</h2>
       <section>
         <div>
           <img
